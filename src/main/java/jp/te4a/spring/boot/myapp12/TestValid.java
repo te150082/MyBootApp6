@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp11;
+package jp.te4a.spring.boot.myapp12;
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -22,3 +22,5 @@ public @interface TestValid {
     Class<? extends Payload>[] payload() default{};
 
 }
+
+
